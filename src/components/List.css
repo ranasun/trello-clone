@@ -1,0 +1,11 @@
+.list {
+	min-width: 280px;
+	margin: 10px 5px;
+	position: relative;
+	background: #dfe1e6;
+}
+
+.content {
+	max-height: calc(100vh - 130px);
+	overflow: scroll;
+}
