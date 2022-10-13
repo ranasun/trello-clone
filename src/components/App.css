@@ -1,20 +1,21 @@
 main {
+	color: #172b4d;
 	display: flex;
 	align-items: start;
-	height: calc(100vh - 5px);
+	height: 100vh;
 	overflow-y: hidden;
 	overflow-x: scroll;
-	padding: 0 5px;
+	/* padding: 0 5px; */
 }
 
 div {
 	border-radius: 3px;
 }
 
-#main {
+/* #main {
 	display: flex;
 	align-items: start;
-}
+} */
 
 .title {
 	font-weight: 600;
@@ -38,31 +39,6 @@ div {
 
 .editing:hover {
 	background: white !important;
-}
-
-.card {
-	background: white;
-	border-bottom: 1px solid #aaa;
-}
-
-.list {
-	min-width: 280px;
-	margin: 10px 5px;
-	position: relative;
-	background: #dfe1e6;
-}
-
-.content {
-	max-height: calc(100vh - 130px);
-	overflow: scroll;
-}
-
-.add-list {
-	min-width: 280px;
-	margin: 10px 5px;
-	position: relative;
-	background: rgba(0, 0, 0, 0.12);
-	color: hsla(0, 0%, 100%, 0.8);
 }
 
 .ghost {
