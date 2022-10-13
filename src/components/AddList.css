@@ -1,0 +1,7 @@
+.add-list {
+	min-width: 280px;
+	margin: 10px 5px;
+	position: relative;
+	background: rgba(0, 0, 0, 0.12);
+	color: hsla(0, 0%, 100%, 0.8);
+}
