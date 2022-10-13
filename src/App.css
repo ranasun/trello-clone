@@ -1,0 +1,90 @@
+main {
+	display: flex;
+	align-items: start;
+	height: calc(100vh - 5px);
+	overflow-y: hidden;
+	overflow-x: scroll;
+	padding: 0 5px;
+}
+
+div {
+	border-radius: 3px;
+}
+
+#main {
+	display: flex;
+	align-items: start;
+}
+
+.title {
+	font-weight: 600;
+}
+
+.editable {
+	user-select: none;
+	outline: none;
+	padding: 10px;
+	margin: 7px;
+	cursor: pointer !important;
+	display: flex;
+	justify-content: space-between;
+}
+
+.editing {
+	background: white;
+	color: #172b4d !important;
+	box-shadow: inset 0px 0px 0px 2px #0279bf;
+}
+
+.editing:hover {
+	background: white !important;
+}
+
+.card {
+	background: white;
+	border-bottom: 1px solid #aaa;
+}
+
+.list {
+	min-width: 280px;
+	margin: 10px 5px;
+	position: relative;
+	background: #dfe1e6;
+}
+
+.content {
+	max-height: calc(100vh - 130px);
+	overflow: scroll;
+}
+
+.add-list {
+	min-width: 280px;
+	margin: 10px 5px;
+	position: relative;
+	background: rgba(0, 0, 0, 0.12);
+	color: hsla(0, 0%, 100%, 0.8);
+}
+
+.ghost {
+	opacity: 0.1;
+	color: #000;
+	background-color: #000;
+}
+
+.add-card {
+	width: calc(100% - 35px);
+	display: inline-block;
+	padding: 10px;
+	margin-top: 0px;
+	color: gray;
+	text-decoration: none;
+}
+
+.add-card:hover {
+	background-color: rgba(9, 30, 66, 0.13);
+}
+
+.del {
+	font-weight: 600;
+	color: gray;
+}
