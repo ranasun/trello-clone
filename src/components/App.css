@@ -4,7 +4,7 @@ main {
 	align-items: start;
 	height: 100vh;
 	overflow-y: hidden;
-	overflow-x: scroll;
+	overflow-x: auto;
 }
 
 div {
