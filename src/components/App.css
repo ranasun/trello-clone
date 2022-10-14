@@ -42,9 +42,10 @@ div {
 }
 
 .ghost {
-	opacity: 0.1;
-	color: #000;
-	background-color: #000;
+	color: black;
+	opacity: 0.3;
+	background-color: black;
+}
 }
 
 .add-card {
