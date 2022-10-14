@@ -46,6 +46,10 @@ div {
 	opacity: 0.3;
 	background-color: black;
 }
+
+.ghost-list {
+	color: transparent;
+	mix-blend-mode: color;
 }
 
 .add-card {
