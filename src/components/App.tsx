@@ -22,6 +22,7 @@ const App = () => {
 		new Sortable(ref.current, {
 			animation: 0,
 			ghostClass: 'ghost-list',
+			handle: '.title',
 		});
 	});
 
