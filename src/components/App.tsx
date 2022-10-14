@@ -20,7 +20,7 @@ const App = () => {
 	useEffect(() => {
 		if (!ref.current) return;
 		new Sortable(ref.current, {
-			animation: 0,
+			animation: 50,
 			ghostClass: 'ghost-list',
 			handle: '.title',
 		});
@@ -30,9 +30,7 @@ const App = () => {
 		<main>
 			<div id="main" ref={ref}>
 				{list.map(({ title, cards }) => (
-					<div className="column">
-						<List title={title} cards={cards}></List>
-					</div>
+					<List title={title} cards={cards}></List>
 				))}
 			</div>
 			<AddList />
