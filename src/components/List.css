@@ -1,8 +1,8 @@
-.column {
+.list {
 	height: 100vh;
 }
 
-.list {
+.container {
 	min-width: 280px;
 	margin: 10px 5px;
 	position: relative;
