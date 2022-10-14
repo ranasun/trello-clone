@@ -11,5 +11,5 @@
 
 .content {
 	max-height: calc(100vh - 130px);
-	overflow: scroll;
+	overflow-x: hidden;
 }
