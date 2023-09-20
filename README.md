@@ -2,6 +2,12 @@
 
 A trello clone
 
+## Install
+
+```
+npm install
+```
+
 ## Usage
 
 ```
@@ -10,7 +16,9 @@ npm run build
 npm run preview
 ```
 
-## Built with
+## Technology Stack
+
+This application is built with the following technologies:
 
 -   [Vite](https://vitejs.dev/)
 -   [Typescript](https://www.typescriptlang.org/)
